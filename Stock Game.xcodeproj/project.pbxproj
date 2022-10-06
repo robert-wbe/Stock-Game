@@ -14,6 +14,11 @@
 		104D25C728AFD06F006CA017 /* Stock_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D25C628AFD06F006CA017 /* Stock_GameTests.swift */; };
 		104D25D128AFD070006CA017 /* Stock_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D25D028AFD070006CA017 /* Stock_GameUITests.swift */; };
 		104D25D328AFD070006CA017 /* Stock_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D25D228AFD070006CA017 /* Stock_GameUITestsLaunchTests.swift */; };
+		104D25E028AFD0D9006CA017 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104D25DF28AFD0D9006CA017 /* Stock.swift */; };
+		1061AD7E28B77F0E00EB8AB5 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061AD7D28B77F0E00EB8AB5 /* SplashScreen.swift */; };
+		1061AD8128B8E29200EB8AB5 /* ka-ching.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1061AD8028B8E29200EB8AB5 /* ka-ching.mp3 */; };
+		1061AD8328B8E2B200EB8AB5 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061AD8228B8E2B200EB8AB5 /* AudioPlayer.swift */; };
+		10DF1DA128B3B5A60061F3BA /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF1DA028B3B5A60061F3BA /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		104D25B228AFD06D006CA017 /* Stock Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104D25B228AFD06D006CA017 /* The Wall Street Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Wall Street Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104D25B528AFD06D006CA017 /* Stock_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock_GameApp.swift; sourceTree = "<group>"; };
 		104D25B728AFD06D006CA017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		104D25B928AFD06F006CA017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +49,12 @@
 		104D25CC28AFD070006CA017 /* Stock GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stock GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104D25D028AFD070006CA017 /* Stock_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock_GameUITests.swift; sourceTree = "<group>"; };
 		104D25D228AFD070006CA017 /* Stock_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		104D25DF28AFD0D9006CA017 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		1061AD7D28B77F0E00EB8AB5 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		1061AD8028B8E29200EB8AB5 /* ka-ching.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ka-ching.mp3"; sourceTree = "<group>"; };
+		1061AD8228B8E2B200EB8AB5 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		109878F328B2B4560000C174 /* Stock-Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Stock-Game-Info.plist"; sourceTree = SOURCE_ROOT; };
+		10DF1DA028B3B5A60061F3BA /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +95,7 @@
 		104D25B328AFD06D006CA017 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				104D25B228AFD06D006CA017 /* Stock Game.app */,
+				104D25B228AFD06D006CA017 /* The Wall Street Simulator.app */,
 				104D25C228AFD06F006CA017 /* Stock GameTests.xctest */,
 				104D25CC28AFD070006CA017 /* Stock GameUITests.xctest */,
 			);
@@ -94,10 +105,16 @@
 		104D25B428AFD06D006CA017 /* Stock Game */ = {
 			isa = PBXGroup;
 			children = (
+				1061AD7F28B8E27200EB8AB5 /* sounds */,
+				109878F328B2B4560000C174 /* Stock-Game-Info.plist */,
 				104D25B528AFD06D006CA017 /* Stock_GameApp.swift */,
 				104D25B728AFD06D006CA017 /* ContentView.swift */,
+				10DF1DA028B3B5A60061F3BA /* test.swift */,
 				104D25B928AFD06F006CA017 /* Assets.xcassets */,
 				104D25BB28AFD06F006CA017 /* Preview Content */,
+				104D25DF28AFD0D9006CA017 /* Stock.swift */,
+				1061AD7D28B77F0E00EB8AB5 /* SplashScreen.swift */,
+				1061AD8228B8E2B200EB8AB5 /* AudioPlayer.swift */,
 			);
 			path = "Stock Game";
 			sourceTree = "<group>";
@@ -127,6 +144,14 @@
 			path = "Stock GameUITests";
 			sourceTree = "<group>";
 		};
+		1061AD7F28B8E27200EB8AB5 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1061AD8028B8E29200EB8AB5 /* ka-ching.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,7 +169,7 @@
 			);
 			name = "Stock Game";
 			productName = "Stock Game";
-			productReference = 104D25B228AFD06D006CA017 /* Stock Game.app */;
+			productReference = 104D25B228AFD06D006CA017 /* The Wall Street Simulator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		104D25C128AFD06F006CA017 /* Stock GameTests */ = {
@@ -231,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1061AD8128B8E29200EB8AB5 /* ka-ching.mp3 in Resources */,
 				104D25BD28AFD06F006CA017 /* Preview Assets.xcassets in Resources */,
 				104D25BA28AFD06F006CA017 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1061AD7E28B77F0E00EB8AB5 /* SplashScreen.swift in Sources */,
 				104D25B828AFD06D006CA017 /* ContentView.swift in Sources */,
+				10DF1DA128B3B5A60061F3BA /* test.swift in Sources */,
 				104D25B628AFD06D006CA017 /* Stock_GameApp.swift in Sources */,
+				104D25E028AFD0D9006CA017 /* Stock.swift in Sources */,
+				1061AD8328B8E2B200EB8AB5 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,12 +444,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stock Game/Preview Content\"";
 				DEVELOPMENT_TEAM = 6232MX4759;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stock-Game-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Wall Street Simulator";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,11 +463,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Stock-Game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.The-Wall-Street-Simulator";
+				PRODUCT_NAME = "The Wall Street Simulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,12 +476,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stock Game/Preview Content\"";
 				DEVELOPMENT_TEAM = 6232MX4759;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stock-Game-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Wall Street Simulator";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,11 +495,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Stock-Game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.The-Wall-Street-Simulator";
+				PRODUCT_NAME = "The Wall Street Simulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
